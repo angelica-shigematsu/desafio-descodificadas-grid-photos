@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(19, 50px);
+}
+
+.start .item1 {
+  background-color: red;
+  background-image: url('./images/red.jpg');
+  background-size: cover;
+  grid-row: 1/10;
+  // Ryutaro Tsukata
+
+}
+
+.item2 {
+  background-color: yellow;
+  background-image: url('./images/yellow.jpg');
+  background-size: cover;
+  grid-row: 1/7;
+
+  //Janko Ferlic
+}
+
+.item3 {
+  background-color: blue;
+  background-image: url('./images/blue.jpg');
+  background-size: cover;
+  grid-row: 1/5;
+  // YI REN 
+}
+
+.item4 {
+  background-color: pink;
+  background-image: url('./images/pink.jpg');
+  background-size: cover;
+  grid-row: 5/10;
+
+  //  Pixabay
+}
+
+.item5 {
+  background-color: green;
+  background-image: url('./images/green.jpg');
+  background-size: cover;
+  grid-row: 1/19;
+  // Ethan Brooke
+}
+
+.item6 {
+  background-color: purple;
+  background-image: url('./images/purple.jpg');
+  background-size: cover;
+  grid-row: 10/14;
+}
+
+.item7 {
+  background-color: orange;
+  background-image: url('./images/orange.jpg');
+  background-size: cover;
+  grid-row: 7/14;
+  // Quang Nguyen Vinh
+}
+
+.item8 {
+  background-color: lightblue;
+  background-image: url('./images/lightblue.jpg');
+  background-size: cover;
+  grid-row: 10/19;
+  // wai sing
+}
+
+.item9 {
+  background-color: black;
+  background-image: url('./images/black.jpg');
+  background-size: cover;
+  grid-row: 14/19;
+}
+
+.item10 {
+  background-color: grey;
+  background-image: url('./images/grey.jpg');
+  background-size: cover;
+  grid-row: 14/19;
+}
